@@ -1,5 +1,3 @@
-import { tokens } from '../Theme';
-
 export const monthlyData = [
   {
     month: 'Jan',

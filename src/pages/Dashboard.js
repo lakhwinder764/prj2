@@ -361,16 +361,16 @@ const Dashboard = () => {
                 <Typography
                   sx={{
                     color: colors.grey[700],
+                    pr: { xs: 3.5, md: 8 },
                   }}
-                  pr={16}
                 >
                   Stock
                 </Typography>
                 <Typography
                   sx={{
                     color: colors.grey[700],
+                    pr: { xs: 3.5, md: 8 },
                   }}
-                  pr={16}
                 >
                   Price
                 </Typography>
@@ -403,8 +403,8 @@ const Dashboard = () => {
               <Box
                 display="flex"
                 sx={{
-                  flexDirection: { sm: 'column', md: 'row' },
-                  alignItems: { sm: 'flex-start', md: 'center' },
+                  flexDirection: { xs: 'column', md: 'row' },
+                  alignItems: { xs: 'flex-start', md: 'center' },
                 }}
               >
                 <img
@@ -443,13 +443,28 @@ const Dashboard = () => {
                 justifyContent="flex-end"
                 flexGrow={1}
               >
-                <Typography fontWeight="bold" pr={14}>
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 3, md: 5 },
+                  }}
+                >
                   32 in Stock
                 </Typography>
-                <Typography pr={18} fontWeight="bold">
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 5.3, md: 10 },
+                  }}
+                >
                   $45.99
                 </Typography>
-                <Typography fontWeight="bold" pr={3}>
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 3, md: 3 },
+                  }}
+                >
                   20
                 </Typography>
               </Box>
@@ -467,8 +482,8 @@ const Dashboard = () => {
               <Box
                 display="flex"
                 sx={{
-                  flexDirection: { sm: 'column', md: 'row' },
-                  alignItems: { sm: 'flex-start', md: 'center' },
+                  flexDirection: { xs: 'column', md: 'row' },
+                  alignItems: { xs: 'flex-start', md: 'center' },
                 }}
               >
                 <img
@@ -507,13 +522,28 @@ const Dashboard = () => {
                 justifyContent="flex-end"
                 flexGrow={1}
               >
-                <Typography fontWeight="bold" pr={14}>
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 3, md: 5 },
+                  }}
+                >
                   32 in Stock
                 </Typography>
-                <Typography pr={18} fontWeight="bold">
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 5.3, md: 10 },
+                  }}
+                >
                   $45.99
                 </Typography>
-                <Typography fontWeight="bold" pr={3}>
+                <Typography
+                  fontWeight="bold"
+                  sx={{
+                    pr: { xs: 3, md: 3 },
+                  }}
+                >
                   20
                 </Typography>
               </Box>

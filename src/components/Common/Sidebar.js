@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ProSidebar, Menu, MenuItem, SidebarFooter } from 'react-pro-sidebar';
-import { Avatar, Box, Typography, useTheme } from '@mui/material';
+import { Avatar, Box, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { TbSettings2 } from 'react-icons/tb';
 import { RxDashboard } from 'react-icons/rx';
@@ -11,7 +11,6 @@ import { AiOutlineComment } from 'react-icons/ai';
 import { MdKeyboardArrowRight, MdKeyboardArrowDown } from 'react-icons/md';
 import { SiWebpack } from 'react-icons/si';
 import 'react-pro-sidebar/dist/css/styles.css';
-import { tokens } from '../../Theme';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   return (
